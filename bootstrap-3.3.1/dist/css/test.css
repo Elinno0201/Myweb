@@ -1,0 +1,55 @@
+
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+.article  { 
+  display: block; 
+  position: relative; 
+  overflow: hidden; 
+}
+figcaption {
+  height: 30%;
+  width: 100%;
+}
+
+.captions { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  bottom: -15%;
+  opacity: 1;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+
+figure:hover figcaption {
+  
+  opacity: 1;
+  bottom: 0;
+}
+.captions-sm { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  opacity: 1;
+}
+
+a.thumbnail:hover {
+  color: #555;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+
+.right{
+	float: right;
+}
+
+.border-bottom{
+  border-bottom:2px solid #FFF000;
+}
